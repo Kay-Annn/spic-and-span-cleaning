@@ -24,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle contact form submission
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
             // Get form values
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
